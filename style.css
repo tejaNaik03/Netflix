@@ -1,0 +1,284 @@
+
+*{
+    margin: 1px;
+    padding: 2px;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    
+}
+.background{
+    margin-left: 60px;
+    width: 87%;
+    height: 50vh;
+    padding: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-size: auto;
+    background-position: right;
+    border: 2px solid white;
+    border-radius: 3pc;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+}
+
+.menu{
+  display: flex;
+}
+.app{
+
+    list-style: none;
+    
+    display: flex;
+    
+    
+    padding-right: 100px;
+}
+.app1{
+   
+    display: flex;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px; 
+    border-color: white;  
+    background-color: black;
+    color:aliceblue;
+}
+
+button{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    
+}
+.background h1,h2{
+    color: aliceblue;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+    
+}
+h3{
+    color: #222222;
+    text-align: center;
+}
+ 
+
+
+.email{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 40%;
+    border-radius: 30px;
+    font-size: larger;
+    background-color: #222222;
+    border: 2px solid white;
+}
+.btn{
+    width: 15%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: red;
+    font-size: larger;
+    color: white;
+
+}
+.net{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content1{
+    color: white;
+    margin: 90px;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex; 
+    gap: 20px; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+  }
+  
+  .card {
+    
+   
+    padding: 20px;
+    width: 160px; 
+    height: 250px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .card-image {
+    align-content: center;
+    width: 200px;
+    height: 270px; 
+    object-fit: cover; 
+    border-radius: 12px;
+    background-position: center;
+    margin-top:0;
+  }
+  .card .card-image:hover {
+    transform: scale(1.1); 
+  }
+  .only{
+    color: aliceblue;
+    margin: 90px;
+    padding: 10px;
+
+
+  }
+  .card-container1 {
+    display: flex;
+    gap: 0px;
+    margin:70px;
+    padding: 20px;
+    
+  }
+  
+  .card1 {
+    background-color:#222222;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 1000px;
+    height: 150px;
+    margin-left: 90px;
+    margin-top: 0;
+    gap: 1px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+  }
+
+  .nk{
+    margin-left: 90px;
+    height: 80px;
+    width: 90%;
+    border: 2px solid black;
+    background-color: #222222;
+    color: #ddd;
+    font-size: larger ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    gap: 50px;
+    text-align: left;
+
+
+  }
+  .nk:hover{
+    background-color: #716c6c7e;
+  }
+
+  .btn1{
+    width: 15%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: red;
+    font-size: larger;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-left: 650px;
+
+
+
+}footer {
+  height: 200px;
+}
+footer h5 {
+  margin-left: 20vh;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+}
+footer h5 a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.main-container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  padding: 4px;
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 36px;
+  margin-left: -9vh;
+}
+.main-container ul li {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 4px;
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  font-weight: 400;
+}
+.main-container ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0.125rem;
+}
+.app12 {
+  margin-top: 8vh;
+  margin-left: 20vh;
+}
+.text {
+  margin-top: 36px;
+  margin-left: 0px;
+}
+.text p {
+  top: 395vh;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.app12 .text{
+   
+  display: flex;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px; 
+  border-color: white;  
+  background-color: black;
+  color:aliceblue;
+  margin-left: 20px;
+}
+  
+  
+  
+  
+  
+  
+ 
+  
